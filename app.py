@@ -30,10 +30,10 @@ geolocation_api_url = 'http://ip-api.com/json/'
 
 
 # MySQL configurations
-app.config['MYSQL_HOST'] = 'Aashika.mysql.pythonanywhere-services.com'
-app.config['MYSQL_USER'] = 'Aashika'
-app.config['MYSQL_PASSWORD'] = 'Anjali@07'
-app.config['MYSQL_DB'] = 'Aashika$default'
+app.config['MYSQL_HOST'] = 'localhost'
+app.config['MYSQL_USER'] = 'root'
+app.config['MYSQL_PASSWORD'] = ''
+app.config['MYSQL_DB'] = 'contact'
 app.config['MYSQL_CURSORCLASS'] = 'DictCursor'
 
 # Initialize MySQL
