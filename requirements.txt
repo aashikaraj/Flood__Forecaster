@@ -1,8 +1,0 @@
-Flask
-numpy
-pandas
-flask-wtf
-scikit-learn
-Flask-MySQLdb
-mysql-connector-python
-python-dotenv
