@@ -30,7 +30,8 @@ geolocation_api_url = 'http://ip-api.com/json/'
 
 
 # MySQL configurations
-app.config['MYSQL_HOST'] = 'junction.proxy.rlwy.net:52937'
+app.config['MYSQL_HOST'] = 'junction.proxy.rlwy.net'
+app.config['MYSQL_PORT'] = 52937
 app.config['MYSQL_USER'] = 'root'
 app.config['MYSQL_PASSWORD'] = 'pZvtzggfkvRzkzSRyfcSbSsTzlbzoKQb'
 app.config['MYSQL_DB'] = 'railway'
@@ -39,6 +40,7 @@ app.config['MYSQL_CURSORCLASS'] = 'DictCursor'
 # Initialize MySQL
 mysql = MySQLdb.connect(host=app.config['MYSQL_HOST'],
                         user=app.config['MYSQL_USER'],
+                        port=app.config['MYSQL_PORT'],
                         password=app.config['MYSQL_PASSWORD'],
                         db=app.config['MYSQL_DB'])
 
