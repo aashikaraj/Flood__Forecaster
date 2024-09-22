@@ -1,6 +1,6 @@
  python -m venv myenv                      
 
- myenv\Scripts\activate
+myenv\Scripts\activate 
   
  pip install Flask 
 
